@@ -1,7 +1,7 @@
 import React from 'react';
 import Underline from '../Utils/Underline';
 import links from '../socialLinks';
-import heroImage from '../Assets/photo1.jpg';
+import heroImage from '../Assets/Untitled5.png';
 
 const Home = () => {
   return (
