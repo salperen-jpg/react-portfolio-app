@@ -2,6 +2,7 @@ import React from 'react';
 import Underline from '../Utils/Underline';
 import links from '../socialLinks';
 import heroImage from '../Assets/Untitled5.png';
+import Animation from './Animation';
 
 const Home = () => {
   return (
@@ -33,6 +34,7 @@ const Home = () => {
           <img src={heroImage} alt='' className='hero-image' />
         </div>
       </div>
+      <Animation />
     </article>
   );
 };

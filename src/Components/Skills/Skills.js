@@ -6,7 +6,7 @@ import Underline from '../Utils/Underline';
 
 const Skills = () => {
   return (
-    <article className='skills'>
+    <article className='skills' id='Skills'>
       <div className='section-title'>
         <h3>SKILLS</h3>
         <Underline />

@@ -4,20 +4,24 @@ const Front = ({ data }) => {
   return (
     <div className='front-end'>
       <h4 className='stack'>Front End</h4>
-      {data.slice(0, 3).map((skill) => {
-        const { id, tech, rate } = skill;
-        return (
-          <article className='skill' key={id}>
-            <p className='tech'>{tech}</p>
-            <div className='skill-container'>
-              <div className='skill-value' style={{ width: `${rate}%` }}></div>
-              <p className='skill-text' style={{ left: `${rate}%` }}>
-                {rate}%
-              </p>
-            </div>
-          </article>
-        );
-      })}
+      <div className='techs'>
+        {data.slice(0, 3).map((skill) => {
+          const { id, tech, rate } = skill;
+          return (
+            <article className='skill' key={id}>
+              <div className='circle-container'>
+                <span className='tech'>{tech}</span>
+                <div
+                  className='tech-info'
+                  style={{ height: `${rate}%`, borderRadius: `${rate}%` }}
+                >
+                  <p className='rate'>{rate}%</p>
+                </div>
+              </div>
+            </article>
+          );
+        })}
+      </div>
     </div>
   );
 };
