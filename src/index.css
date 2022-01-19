@@ -391,3 +391,43 @@ HOME
     height: 9rem;
   }
 }
+
+/*********** 
+PROJECTS
+***********/
+.projects {
+  background: var(--clr-light-1);
+}
+.projects-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+.project {
+  position: relative;
+  height: 20rem;
+  perspective: 1500px;
+}
+.card-faces {
+  backface-visibility: hidden;
+  transition: all 2s linear;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.project-front {
+  background: red;
+}
+.project-back {
+  transform: rotateY(180deg);
+  background: green;
+}
+
+.project:hover .project-front {
+  transform: rotateY(-180deg);
+}
+.project:hover .project-back {
+  transform: rotateY(0);
+}
