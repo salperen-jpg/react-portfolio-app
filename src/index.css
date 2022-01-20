@@ -384,7 +384,7 @@ HOME
     place-items: unset;
   }
   .stack {
-    text-align: center;
+    text-align: left;
   }
   .circle-container {
     width: 9rem;
@@ -428,7 +428,7 @@ PROJECTS
 }
 .project-front {
 }
-img {
+.project img {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   height: 17rem;
