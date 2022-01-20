@@ -3,8 +3,8 @@ import './Animation.css';
 
 const Animation = () => {
   return (
-    <div class='animation-area'>
-      <ul class='box-area'>
+    <div className='animation-area'>
+      <ul className='box-area'>
         <li></li>
         <li></li>
         <li></li>

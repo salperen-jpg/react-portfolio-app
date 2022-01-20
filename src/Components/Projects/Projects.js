@@ -4,7 +4,7 @@ import Project from './Project';
 import projects from './ProjectList';
 const Projects = () => {
   return (
-    <article className='projects'>
+    <article className='projects' id='Projects'>
       <div className='section-title'>
         <h3>Projects</h3>
         <Underline />
