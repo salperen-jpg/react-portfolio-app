@@ -37,7 +37,12 @@ const Project = (project) => {
             </a>
           </span>
           <span>
-            <a href={repo} rel='noreferrer' className='project-link'>
+            <a
+              href={repo}
+              rel='noreferrer'
+              target='_blank'
+              className='project-link'
+            >
               Code
             </a>
           </span>

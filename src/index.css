@@ -411,7 +411,7 @@ PROJECTS
 
 .project {
   position: relative;
-  min-height: 25rem;
+  min-height: 27rem;
   perspective: 1500px;
   border-radius: 10px;
 }
