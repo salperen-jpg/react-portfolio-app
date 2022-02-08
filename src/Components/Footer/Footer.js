@@ -6,7 +6,9 @@ const Footer = () => {
   return (
     <footer className='footer'>
       <div className='footer-center'>
-        <span>&copy; All rights reserved</span>
+        <span>
+          &copy; All rights reserved <strong>Salih Alperen</strong>
+        </span>
         <ul className='footer-social'>
           {links.map((link) => {
             return (

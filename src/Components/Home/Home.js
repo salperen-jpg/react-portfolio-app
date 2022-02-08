@@ -15,7 +15,9 @@ const Home = () => {
           <span>Full Stack UI/UX Designer</span>
           <div className='btn-container'>
             <button className='btn hire-btn'>Hire me </button>
-            <button className='btn work-btn'>See my works</button>
+            <a className='btn work-btn' href='#Projects'>
+              See my works
+            </a>
           </div>
 
           <ul className='sidebar-social'>

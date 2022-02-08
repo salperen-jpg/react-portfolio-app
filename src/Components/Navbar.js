@@ -4,7 +4,7 @@ import { MdDarkMode } from 'react-icons/md';
 import { GiHamburgerMenu } from 'react-icons/gi';
 
 const Navbar = () => {
-  const { isSidebarOpen, openSidebar } = useGlobalContext();
+  const { openSidebar } = useGlobalContext();
 
   return (
     <nav className='nav'>
@@ -22,13 +22,13 @@ const Navbar = () => {
               <a href='#Skills'>Skills</a>
             </li>
             <li>
-              <a href='#'>Contact</a>
+              <a href='#About'>About</a>
             </li>
           </ul>
 
-          <div className='theme icon'>
+          {/* <div className='theme icon'>
             <MdDarkMode />
-          </div>
+          </div> */}
 
           <div className='nav-hamburger icon' onClick={openSidebar}>
             <GiHamburgerMenu />

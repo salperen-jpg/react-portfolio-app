@@ -9,13 +9,11 @@ const Front = ({ data }) => {
           const { id, tech, rate } = skill;
           return (
             <article className='skill' key={id}>
-              <div className='circle-container'>
-                <span className='tech'>{tech}</span>
-                <div
-                  className='tech-info'
-                  style={{ height: `${rate}%`, borderRadius: `${rate}%` }}
-                >
-                  <p className='rate'>{rate}%</p>
+              <span className='tech'>{tech}</span>
+              <div className='skill-container'>
+                <p className='skill-value' style={{ width: `${rate}%` }}></p>
+                <div className='skill-text' style={{ left: `${rate}%` }}>
+                  {rate}%
                 </div>
               </div>
             </article>
