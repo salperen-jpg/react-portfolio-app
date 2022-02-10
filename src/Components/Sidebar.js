@@ -13,13 +13,19 @@ const Sidebar = () => {
       <div className='sidebar-container'>
         <ul className='sidebar-links'>
           <li>
-            <a href='#'>Projects</a>
+            <a href='#Projects' onClick={closeSidebar}>
+              Projects
+            </a>
           </li>
           <li>
-            <a href='#'>Skills</a>
+            <a href='#Skills' onClick={closeSidebar}>
+              Skills
+            </a>
           </li>
           <li>
-            <a href='#'>Contact</a>
+            <a href='#About' onClick={closeSidebar}>
+              Contact
+            </a>
           </li>
         </ul>
         <ul className='sidebar-social'>

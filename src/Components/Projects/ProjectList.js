@@ -42,7 +42,7 @@ export default [
     repo: 'https://github.com/salperen-jpg/starbucks-landing-page',
     name: 'Starbucks Clone',
     exp: 'Starbucks Clone.',
-    techs: ['Html', 'Css'],
+    techs: ['Html', 'Css', 'JavaScript'],
   },
   {
     id: 6,
@@ -52,5 +52,14 @@ export default [
     name: 'Overreacted Clone',
     exp: 'This website is Overreacted web page clone which is created by Dan Abramov.',
     techs: ['React', 'Css'],
+  },
+  {
+    id: 7,
+    image: require('./github.PNG'),
+    live: 'https://react-overreacted-clone.netlify.app/',
+    repo: 'https://github.com/salperen-jpg/react-overreacted-clone',
+    name: 'Github Users App',
+    exp: 'This website is Overreacted web page clone which is created by Dan Abramov.',
+    techs: ['ContextApi', 'React', 'Scss'],
   },
 ];

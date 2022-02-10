@@ -169,6 +169,10 @@ NAVBAR
     color: var(--clr-gray);
     font-weight: 600;
     letter-spacing: 0.05rem;
+    transition: var(--transition);
+  }
+  .nav-links a:hover {
+    color: var(--clr-dark-3);
   }
   .nav-hamburger {
     display: none;
@@ -277,6 +281,9 @@ HOME
   margin-right: 0.3rem;
   background: var(--clr-light-1);
   color: var(--main-white);
+}
+.hire-btn a {
+  color: #fff;
 }
 
 .work-btn {

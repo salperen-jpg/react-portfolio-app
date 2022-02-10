@@ -2,7 +2,6 @@ import React from 'react';
 
 const Project = (project) => {
   const { image, live, repo, name, exp, techs } = project;
-  console.log(techs);
 
   return (
     <div className='project'>

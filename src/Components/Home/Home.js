@@ -6,7 +6,7 @@ import Animation from './Animation';
 
 const Home = () => {
   return (
-    <article className='hero'>
+    <article className='hero' id='#Home'>
       <div className='hero-center'>
         <div className='hero-info'>
           <h1>Hi,</h1>
@@ -14,7 +14,9 @@ const Home = () => {
           <h1>I'm Salih</h1>
           <span>Full Stack UI/UX Designer</span>
           <div className='btn-container'>
-            <button className='btn hire-btn'>Hire me </button>
+            <button className='btn hire-btn'>
+              <a href='mailto:sal.alperen1@gmail.com'>Hire me</a>
+            </button>
             <a className='btn work-btn' href='#Projects'>
               See my works
             </a>
