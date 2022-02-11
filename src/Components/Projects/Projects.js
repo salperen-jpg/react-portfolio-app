@@ -3,7 +3,8 @@ import Underline from '../Utils/Underline';
 import Project from './Project';
 import { useGlobalContext } from '../../context';
 const Projects = () => {
-  const { displayProjects, numberOfPages, handlePage } = useGlobalContext();
+  const { displayProjects, numberOfPages, handlePage, page } =
+    useGlobalContext();
 
   return (
     <article className='projects' id='Projects'>
@@ -16,10 +17,16 @@ const Projects = () => {
           return <Project key={project.id} {...project} />;
         })}
       </div>
-      <div className='btn-container'>
+      <div className='project-btn-container'>
         {numberOfPages.map((number, index) => {
           return (
-            <button key={index} onClick={() => handlePage(index)}>
+            <button
+              key={index}
+              className={`pagination-btn ${
+                page === index ? 'active-page' : null
+              }`}
+              onClick={() => handlePage(index)}
+            >
               {index + 1}
             </button>
           );

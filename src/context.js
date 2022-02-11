@@ -35,6 +35,7 @@ export const AppProvider = ({ children }) => {
         numberOfPages,
         displayProjects,
         handlePage,
+        page,
       }}
     >
       {children}

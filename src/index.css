@@ -467,3 +467,26 @@ PROJECTS
 .project:hover .project-back {
   transform: rotateY(0);
 }
+/* BTN - CONTAINER */
+.project-btn-container {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.pagination-btn {
+  margin-right: 0.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: var(--clr-dark-3);
+  color: var(--main-white);
+  cursor: pointer;
+  border-radius: 3px;
+}
+.active-page {
+  background: var(--clr-light-gray);
+}

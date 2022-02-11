@@ -62,4 +62,13 @@ export default [
     exp: 'This website is Overreacted web page clone which is created by Dan Abramov.',
     techs: ['ContextApi', 'React', 'Scss'],
   },
+  {
+    id: 8,
+    image: require('./expense.PNG'),
+    live: 'https://expence-tracker-app-react.netlify.app/',
+    repo: 'https://github.com/salperen-jpg/react-expense-tracker',
+    name: 'Expense Tracker App',
+    exp: 'Expense tracker can help you to arrange your money in some time interval',
+    techs: ['React', 'Css'],
+  },
 ];
