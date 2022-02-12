@@ -24,7 +24,7 @@ const Sidebar = () => {
           </li>
           <li>
             <a href='#About' onClick={closeSidebar}>
-              Contact
+              About
             </a>
           </li>
         </ul>

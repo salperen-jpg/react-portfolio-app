@@ -13,8 +13,8 @@ const About = () => {
       <div className='about-center'>
         <div className='about-info'>
           <span className='about-me'>
-            I am a passionate front end web developer especially interested in
-            building responsive, charming and modern web applications with the
+            I am a passionate web developer especially interested in building
+            responsive, charming and modern web applications with the
             technologies in demand in the industry.
             <button className='btn about-btn'>
               <a href='mailto:sal.alperen1@gmail.com'>Hire me</a>
