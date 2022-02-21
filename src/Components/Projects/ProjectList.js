@@ -20,10 +20,10 @@ export default [
   {
     id: 7,
     image: require('./github.PNG'),
-    live: 'https://react-overreacted-clone.netlify.app/',
-    repo: 'https://github.com/salperen-jpg/react-overreacted-clone',
+    live: 'https://github-user-search-app-react.netlify.app/',
+    repo: 'https://github.com/salperen-jpg/github-user-app',
     name: 'Github Users App',
-    exp: 'This website is Overreacted web page clone which is created by Dan Abramov.',
+    exp: "Github User App provides you user's information on the github platform such as followers,repos...",
     techs: ['ContextApi', 'React', 'Scss'],
   },
   {
@@ -54,6 +54,15 @@ export default [
     techs: ['React', 'Css'],
   },
   {
+    id: 11,
+    image: require('./feedback.PNG'),
+    live: 'https://feedback-ui-react-app.netlify.app/',
+    repo: 'https://github.com/salperen-jpg/react-feedback-ui-app',
+    name: 'Feedback App',
+    exp: 'It allows you to share your feedback with the others.',
+    techs: ['React', 'Context Api', 'SCSS'],
+  },
+  {
     id: 10,
     image: require('./netflix.PNG'),
     live: 'https://netflix-home-page-clone.netlify.app/',
@@ -61,6 +70,16 @@ export default [
     name: 'Netflix Homepage Clone',
     exp: 'Netflix Homepage Clone',
     techs: ['React', 'CSS'],
+  },
+  ,
+  {
+    id: 3,
+    image: require('./quiz.PNG'),
+    live: 'https://react-general-knowledge-quiz.netlify.app/',
+    repo: 'https://github.com/salperen-jpg/react-quiz-app',
+    name: 'Quiz App',
+    exp: 'General Knowledge Quiz is consist of three topics sport,history,politics and the  questions can go up to 50 questions.',
+    techs: ['React', 'ContextApi'],
   },
   {
     id: 8,
@@ -70,15 +89,6 @@ export default [
     name: 'Expense Tracker App',
     exp: 'Expense tracker can help you to arrange your money in some time interval',
     techs: ['React', 'Css'],
-  },
-  {
-    id: 3,
-    image: require('./quiz.PNG'),
-    live: 'https://react-general-knowledge-quiz.netlify.app/',
-    repo: 'https://github.com/salperen-jpg/react-quiz-app',
-    name: 'Quiz App',
-    exp: 'General Knowledge Quiz is consist of three topics sport,history,politics and the  questions can go up to 50 questions.',
-    techs: ['React', 'ContextApi'],
   },
   {
     id: 9,
