@@ -99,4 +99,13 @@ export default [
     exp: 'The website of distinct places to see all over the world. Keep exploring!',
     techs: ['HTML', 'CSS', 'JavaScript'],
   },
+  {
+    id: 99,
+    image: require('./disne.PNG'),
+    live: 'https://react-disney-clone.netlify.app/',
+    repo: 'https://github.com/salperen-jpg/react-disney-clone',
+    name: 'Disney Clone',
+    exp: 'Disney Clone',
+    techs: ['React.js', 'ContextApi', 'SCSS'],
+  },
 ];
