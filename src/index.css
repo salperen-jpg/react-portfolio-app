@@ -389,7 +389,7 @@ PROJECTS
 
 .project {
   position: relative;
-  min-height: 27rem;
+  min-height: 25rem;
   perspective: 1500px;
   border-radius: 10px;
 }
@@ -408,7 +408,7 @@ PROJECTS
 .project img {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  height: 17rem;
+  height: 15rem;
 }
 .project-info {
   padding: 1rem;
@@ -421,6 +421,8 @@ PROJECTS
 .exp {
   margin-top: 1rem;
   color: var(--clr-gray);
+  line-height: 1.25;
+  letter-spacing: 0.1rem;
 }
 .project-back {
   transform: rotateY(180deg);

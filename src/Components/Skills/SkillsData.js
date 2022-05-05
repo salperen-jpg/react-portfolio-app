@@ -19,9 +19,4 @@ export default [
     tech: 'Node.js',
     rate: '50',
   },
-  {
-    id: 5,
-    tech: 'Java',
-    rate: '70',
-  },
 ];
