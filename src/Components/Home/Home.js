@@ -12,7 +12,7 @@ const Home = () => {
           <h1>Hi,</h1>
           <Underline />
           <h1>I'm Salih</h1>
-          <span>Full Stack UI/UX Designer</span>
+          <span>Full Stack Web Developer</span>
           <div className='btn-container'>
             <button className='btn hire-btn'>
               <a href='mailto:sal.alperen1@gmail.com'>Hire me</a>
