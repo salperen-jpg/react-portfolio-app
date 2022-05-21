@@ -1,16 +1,16 @@
 export default [
   {
     id: 0,
-    image: require('./takeAll.PNG'),
+    image: require('../Assets/takeAll.PNG'),
     live: 'https://react-takeall-app.netlify.app/',
     repo: 'https://github.com/salperen-jpg/react-ecommerce-app',
     name: 'Ecommerce App',
-    exp: 'A shopping app that provides customer quality products for making your life enjoyable.',
+    exp: 'A shopping app that provides their customer quality products for making their life enjoyable.',
     techs: ['React', 'ContextApi', 'Scss', 'Reducer'],
   },
   {
     id: 3,
-    image: require('./github.PNG'),
+    image: require('../Assets/github.PNG'),
     live: 'https://github-user-search-app-react.netlify.app/',
     repo: 'https://github.com/salperen-jpg/github-user-app',
     name: 'Github Users App',
@@ -19,7 +19,7 @@ export default [
   },
   {
     id: 2,
-    image: require('./todo.png'),
+    image: require('../Assets/todo.png'),
     live: 'https://react-todo-app-challenge.netlify.app/',
     repo: 'https://github.com/salperen-jpg/react-todo-app-redux',
     name: 'Todo App',
@@ -28,7 +28,7 @@ export default [
   },
   {
     id: 1,
-    image: require('./weather.PNG'),
+    image: require('../Assets/weather.PNG'),
     live: 'https://weather-around-the-world.netlify.app/',
     repo: 'https://github.com/salperen-jpg/react-weather-api-app',
     name: 'Wheather App',
@@ -38,7 +38,7 @@ export default [
 
   {
     id: 4,
-    image: require('./photoApp.PNG'),
+    image: require('../Assets/photoApp.PNG'),
     live: 'https://numerous-photo.netlify.app/',
     repo: 'https://github.com/salperen-jpg/react-numerous-photo-app',
     name: 'Numerous Photo',
@@ -47,7 +47,7 @@ export default [
   },
   {
     id: 5,
-    image: require('./starbucks.PNG'),
+    image: require('../Assets/starbucks.PNG'),
     live: 'https://starbucks-clone-basics.netlify.app/',
     repo: 'https://github.com/salperen-jpg/starbucks-landing-page',
     name: 'Starbucks Clone',
@@ -56,7 +56,7 @@ export default [
   },
   {
     id: 6,
-    image: require('./overreacted.PNG'),
+    image: require('../Assets/overreacted.PNG'),
     live: 'https://react-overreacted-clone.netlify.app/',
     repo: 'https://github.com/salperen-jpg/react-overreacted-clone',
     name: 'Overreacted Clone',
@@ -64,8 +64,17 @@ export default [
     techs: ['React', 'Css'],
   },
   {
+    id: 12,
+    image: require('../Assets/disne.PNG'),
+    live: 'https://react-disney-clone.netlify.app/',
+    repo: 'https://github.com/salperen-jpg/react-disney-clone',
+    name: 'Disney Clone',
+    exp: 'Disney Clone',
+    techs: ['React.js', 'ContextApi', 'SCSS'],
+  },
+  {
     id: 7,
-    image: require('./feedback.PNG'),
+    image: require('../Assets/feedback.PNG'),
     live: 'https://feedback-ui-react-app.netlify.app/',
     repo: 'https://github.com/salperen-jpg/react-feedback-ui-app',
     name: 'Feedback App',
@@ -74,7 +83,7 @@ export default [
   },
   {
     id: 8,
-    image: require('./netflix.PNG'),
+    image: require('../Assets/netflix.PNG'),
     live: 'https://netflix-home-page-clone.netlify.app/',
     repo: 'https://github.com/salperen-jpg/react-netflix-homepage-clone',
     name: 'Netflix Homepage Clone',
@@ -83,25 +92,17 @@ export default [
   },
   {
     id: 9,
-    image: require('./quiz.PNG'),
+    image: require('../Assets/quiz.PNG'),
     live: 'https://react-general-knowledge-quiz.netlify.app/',
     repo: 'https://github.com/salperen-jpg/react-quiz-app',
     name: 'Quiz App',
     exp: 'General Knowledge Quiz is consist of three topics sport,history,politics and the  questions can go up to 50 questions.',
     techs: ['React', 'ContextApi'],
   },
-  {
-    id: 12,
-    image: require('./disne.PNG'),
-    live: 'https://react-disney-clone.netlify.app/',
-    repo: 'https://github.com/salperen-jpg/react-disney-clone',
-    name: 'Disney Clone',
-    exp: 'Disney Clone',
-    techs: ['React.js', 'ContextApi', 'SCSS'],
-  },
+
   {
     id: 11,
-    image: require('./photo.PNG'),
+    image: require('../Assets/photo.PNG'),
     live: 'https://vermillion-centaur-f5c881.netlify.app/',
     repo: 'https://github.com/salperen-jpg/react-photosnap-app',
     name: 'PhotoSnap',
@@ -110,7 +111,7 @@ export default [
   },
   {
     id: 11,
-    image: require('./tour.PNG'),
+    image: require('../Assets/tour.PNG'),
     live: 'https://world-tour-project.netlify.app/',
     repo: 'https://github.com/salperen-jpg/world-tour-project',
     name: 'World Tour',
@@ -119,7 +120,7 @@ export default [
   },
   {
     id: 10,
-    image: require('./expense.PNG'),
+    image: require('../Assets/expense.PNG'),
     live: 'https://expence-tracker-app-react.netlify.app/',
     repo: 'https://github.com/salperen-jpg/react-expense-tracker',
     name: 'Expense Tracker App',
